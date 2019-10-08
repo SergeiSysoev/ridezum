@@ -22,6 +22,10 @@ public class ApplyToDriveTest extends BaseTest {
         applyToDrivePage.inputPhone(user.getPhone());
         applyToDrivePage.selectArea(3);
 //        applyToDrivePage.selectAreaName("California");
+//        applyToDrivePage.selectAreaName("California");
+//        applyToDrivePage.selectAreaName("California");
+//        applyToDrivePage.selectAreaName("California");
+//        applyToDrivePage.selectAreaName("California");
         Thread.sleep(3000);
         applyToDrivePage.inputReferral(user.getReferal());
         driver.switchTo().defaultContent();
