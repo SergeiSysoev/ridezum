@@ -23,8 +23,8 @@ public class BaseTest {
         Assert.assertEquals("Zūm", driver.getTitle());
     }
 
-//    @AfterClass
-//    public static void finish(){
-//        driver.quit();
-//    }
+    @AfterClass
+    public static void finish(){
+        driver.quit();
+    }
 }

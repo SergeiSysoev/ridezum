@@ -24,6 +24,7 @@ public class RequstTest extends BaseTest{
 //        applyToDrivePage.clickSelectAreaField();
 //        applyToDrivePage.clickReferalField();
 
+
         System.out.println(applyToDrivePage.getRequest0());
         System.out.println(applyToDrivePage.getRequest2());
         System.out.println(applyToDrivePage.getRequest5());
