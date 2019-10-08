@@ -25,19 +25,12 @@ public class RequstTest extends BaseTest{
 //        applyToDrivePage.clickReferalField();
 
         System.out.println(applyToDrivePage.getRequest0());
-       // System.out.println(applyToDrivePage.getRequest1());
         System.out.println(applyToDrivePage.getRequest2());
-       // System.out.println(applyToDrivePage.getRequest3());
-       // System.out.println(applyToDrivePage.getRequest4());
         System.out.println(applyToDrivePage.getRequest5());
-       // System.out.println(applyToDrivePage.getRequest6());
         System.out.println(applyToDrivePage.getRequest7());
-       // System.out.println(applyToDrivePage.getRequest8());
         System.out.println(applyToDrivePage.getRequest9());
-       // System.out.println(applyToDrivePage.getRequest10());
         System.out.println(applyToDrivePage.getRequest11());
-      //  System.out.println(applyToDrivePage.getRequest12());
-       // System.out.println(applyToDrivePage.getRequest13());
+
 
         Assert.assertEquals("Please enter a value", applyToDrivePage.getRequest0());
         Assert.assertEquals("Please enter a value", applyToDrivePage.getRequest2());
